@@ -1,0 +1,27 @@
+.field-wrapper {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field-label {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.field-label span {
+    font-weight: lighter;
+}
+
+.field-input {
+    height: 25px;
+}
+
+.error-text {
+    background-color: darkred;
+    padding: 3px;
+    margin: 3px;
+    width: fit-content;
+    color: white;
+    font-weight: bold;
+}
